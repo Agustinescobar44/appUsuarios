@@ -1,0 +1,43 @@
+.layout{
+    background: url(../../../assets/img/fondo.jpg) no-repeat no-repeat center;
+    background-size: cover;
+}
+
+
+.container{
+    height: 100vh;
+}
+.titulo{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Mortserrat', sans-serif;
+}
+.btn-xl{
+    font-size: 20px;
+    color: white;
+    background-color: #f05f44;
+    border-color: #f05f44;
+    position: relative;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 300px;
+    transition: background-color .3s ease-in-out, border-radius .5s ease-out;
+}
+.btn-xl:hover{
+    background-color: #ee4b08;
+    border-radius:0;
+}
+.btn::before{
+    content: '';
+    height: 8px;
+    background-color: #f05f44;
+
+    border-radius: 5px;
+
+    position: absolute;
+    top: -40%;
+    left: 20%;
+    right: 20%;
+}

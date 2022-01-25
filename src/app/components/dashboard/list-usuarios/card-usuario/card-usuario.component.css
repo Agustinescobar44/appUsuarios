@@ -1,0 +1,15 @@
+.btn-xl{
+    font-size: 20px;
+    color: white;
+    background-color: #f05f44;
+    border-color: #f05f44;
+    position: relative;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 300px;
+    transition: background-color .3s ease-in-out, border-radius .5s ease-out;
+}
+.btn-xl:hover{
+    background-color: #ee4b08;
+    border-radius:0;
+}
